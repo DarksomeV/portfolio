@@ -1,0 +1,26 @@
+// Fonts
+
+//Font-sizes
+
+//Colors
+$white: #fff;
+$light_font_color: #ddd;
+$dark_font_color: #232323;
+//Sizes
+$margin-within-block-p: 4rem;
+
+
+//Mixins
+
+@mixin placeholder {
+  &::-webkit-input-placeholder { color: $default-text-color; }
+  &:-moz-placeholder           { color: $default-text-color; }
+  &::-moz-placeholder          { color: $default-text-color; }
+  &:-ms-input-placeholder      { color: $default-text-color; }
+}
+
+
+
+
+
+
