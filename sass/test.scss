@@ -304,6 +304,8 @@ img {
       font-size: 13px;
       font-weight: 700;
       color: $color_alto_approx;
+      display: block;
+      padding: 10px 15px;
       &:after {
         content: "";
         display: none;
@@ -685,7 +687,7 @@ img {
       &:after {
         content: '';
         position: absolute;
-        bottom: calc(50% - 1px );
+        bottom: 0;
         left: 0;
         width: 0;
         height: 1px;

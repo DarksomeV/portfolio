@@ -145,6 +145,7 @@ img {
   padding-top: 20px;
   z-index: 5; }
 
+
 .section {
   background-color: #fff;
   padding: 100px 0; }
@@ -213,7 +214,9 @@ img {
     position: relative;
     font-size: 13px;
     font-weight: 700;
-    color: #ddd; }
+    color: #ddd;
+    display: block;
+    padding: 10px 15px; }
     .nav-wrapper .nav li a:after {
       content: "";
       display: none;
@@ -253,6 +256,12 @@ img {
     color: #232323; }
     .nav-sticky .nav li a:after {
       background-color: #3f3f3f; }
+
+
+
+
+
+
 
 .home-1 {
   position: relative;
@@ -540,7 +549,7 @@ img {
       #work-list li .filter:after {
         content: '';
         position: absolute;
-        bottom: calc(50% - 1px);
+        bottom: 0;
         left: 0;
         width: 0;
         height: 1px;
